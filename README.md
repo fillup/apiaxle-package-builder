@@ -51,5 +51,5 @@ properly and that I'm able to start up the Apiaxl
 | CentOS 6.3    | x86_64        | Requires a TTY for sudo commands, so after you run ```vagrant up```, run ```vagrant ssh```, then ```cd /vagrant```, and finally ```./setup.sh```. This should build the packages for you. | [Link](https://dl.dropbox.com/u/7225008/Vagrant/CentOS-6.3-x86_64-minimal.box) |
 | Fedora 18     | x86           | Requires a TTY for sudo commands, so after you run ```vagrant up```, run ```vagrant ssh```, then ```cd /vagrant```, and finally ```./setup.sh```. This should build the packages for you. | [Link](http://static.stasiak.at/fedora-18-x86-2.box) |
 | Fedora 18     | x86_64        |                  | [Link](http://puppet-vagrant-boxes.puppetlabs.com/fedora-18-x64-vbox4210-nocm.box) |
-| Ubuntu 12.04 Server (Daily) | x86_64 | In Progress | [Link](http://cloud-images.ubuntu.com/precise/current/precise-server-cloudimg-vagrant-amd64-disk1.box) |
-| Ubuntu Server 13.04         | x86_64 | In Progress | [Link](https://dl.dropboxusercontent.com/s/o5i10hcu57jamg8/ubuntu64-ruby2.box) |
+| Ubuntu 12.04 Server (Daily) | x86_64 |             | [Link](http://cloud-images.ubuntu.com/precise/current/precise-server-cloudimg-vagrant-amd64-disk1.box) |
+| Ubuntu 13.04 Server (Daily) | x86_64 | Too many problems installing nodejs and npm, script does not work. May attempt to fix if someone really wants this. | [Link](http://cloud-images.ubuntu.com/raring/current/raring-server-cloudimg-vagrant-amd64-disk1.box) |
